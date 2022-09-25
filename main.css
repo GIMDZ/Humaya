@@ -13,6 +13,10 @@ body{
 background: linear-gradient(90deg, rgba(46,43,43,1) 0%, rgba(62,59,59,1) 50%);
 }
 
+ul {
+    list-style-type: none;
+}
+
 .hero{
     background-image: url("images/imagenCentral.png");
     background-position: center;
@@ -21,36 +25,47 @@ background: linear-gradient(90deg, rgba(46,43,43,1) 0%, rgba(62,59,59,1) 50%);
 }
 
 
-.card{
+.productos .card{
     background: transparent;
     color: aliceblue;
     border: none;
+    top: 25%;
 }
 
 .separator{
-    min-height: 4em;
+    min-height: 8em;
     color: aliceblue;
+    display: grid;
+    place-items: center;
+
 }
-
-
 
 footer{
     background: #1B1919;
     color: aliceblue;
+    padding: 1em;
 }
 
 footer h3{
-    color: #D5AC8C
+    color: #D5AC8C;
 }
 
 .productos{
     background: #000000;
 }
 
-img{
-    
+ .content .row{
+    min-height: 25rem;
 }
 
+.icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.recetas .card{
+    background: #D5AC8C;
+}
 
 
